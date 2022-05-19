@@ -1,0 +1,12 @@
+{
+  "name": "env_manager",
+  "version": "1.0.0",
+  "main": "./bin/index.js",
+  "license": "MIT",
+  "bin": {
+    "generate-env": "./bin/index.js"
+  },
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}

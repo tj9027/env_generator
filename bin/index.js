@@ -16,7 +16,7 @@ const options = yargs
 
 const configFile = fs.readFileSync(options.path).toString();
 
-const requiredEnvs = configFile.match(/\b[A-Z_]+\b/g);
+const requiredEnvs = configFile.match(/\b[A-Z_0-9]+\b/g);
 
 const output = {
 
